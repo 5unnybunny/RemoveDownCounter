@@ -1,0 +1,15 @@
+{
+	"name" : "Remove Down Counter",
+	"description" : "Removes the default down counter added U217",
+	"author" : "Bunny Cunny",
+	"blt_version" : 2,
+	"version": "1",
+
+	"hooks" : [
+		{ 	
+			"hook_id" : "lib/managers/hud/hudteammate",
+			"script_path" : "hudteammate.lua"
+		}
+	]
+	
+}
